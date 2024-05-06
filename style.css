@@ -1,0 +1,24 @@
+/* grouping */
+h1, h2{
+    color: blueviolet;
+}
+
+/* chird selector using the parent */
+.box > P{
+    color: firebrick;
+}
+
+/* descendant */
+.box li{
+    color: blue;
+}
+
+/* chaining selector */
+li.done{
+    color: green;
+}
+
+/* Combining combiners selector */
+ul p.done{
+    font-size: 0.5rem;
+}
